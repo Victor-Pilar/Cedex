@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    CEDEX Bienveni3
+                    CEDEX Bienveni3 2.0
                 </div>
 
                 <div class="links">
