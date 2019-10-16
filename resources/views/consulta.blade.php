@@ -9,11 +9,10 @@
       <label for="text">Bascar Paciente</label>
       <input type="text" class="form-control" name="BPaciente" placeholder="Buscar Paciente">
       <button type="submit" class="btn btn-primary">Buscar</button>
+      <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#myModal">Nuevo Paciente</button>
       <!--Modal-->
       <div class="container">
-  <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Nuevo Paciente</button>
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
@@ -55,20 +54,24 @@
     </div>
   </div>
         </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
       
     </div>
   </div>
-  
 </div>
-<div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+
     </div>
  <!--Datos Médicos Básicos -->
   <div class="form-row">
     <div class="form-group col-md-2">
       <label for="inputtalla">Talla</label>
+      <input type="text" class="form-control" name="talla">
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputtalla">Peso</label>
       <input type="text" class="form-control" name="talla">
     </div>
     <div class="form-group col-md-2">
