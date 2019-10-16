@@ -5,6 +5,24 @@
   @csrf
   <div class="row">
     <div class="col-8">
+    <div class="form-group col-md-4">
+      <label for="text">Bascar Paciente</label>
+      <input type="text" class="form-control" name="BPaciente" placeholder="Buscar Paciente">
+      <button type="submit" class="btn btn-primary">Buscar</button>
+      <!--Modal-->
+      <div class="container">
+  <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Nuevo Paciente</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Nuevo Paciente</h4>
+        </div>
+        <div class="modal-body">
     <!--Datos Principales -->
   <div class="form-row">
     <div class="form-group col-md-4">
@@ -36,6 +54,17 @@
       <input type="text" class="form-control" name="mun" placeholder="Municipio">
     </div>
   </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
  <!--Datos Médicos Básicos -->
   <div class="form-row">
     <div class="form-group col-md-2">
